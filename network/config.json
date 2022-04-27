@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Juan Manuel"
+  },
+  "text": {
+    "more": "Se detectan ciertas comunidades que usaron distintos hashtags referentes al 4 20, además se detectó una comunidad con hashtags referentes a los nft, esto se debe a que generalmente se usan distintos hashtags de relevancia para que se puedan vender obras de arte minteadas.",
+    "intro": "Hashtags usados durante el 4 20, día en el que se lucha por la legalización y consumo libre de la mariguana",
+    "title": "420 in Twitter"
+  },
+  "legend": {
+    "edgeLabel": "Tweets",
+    "colorLabel": "Comunidades detectadas",
+    "nodeLabel": "Hashtags de 420"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
